@@ -48,6 +48,14 @@
       <HintPath>..\packages\HtmlAgilityPack.1.4.9\lib\Net45\HtmlAgilityPack.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="LtiLibrary.AspNet, Version=1.6.5905.34055, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LtiLibrary.AspNet.1.6.0\lib\net45\LtiLibrary.AspNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="LtiLibrary.Core, Version=1.5.5531.22084, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LtiLibrary.Core.1.5.0\lib\net45\LtiLibrary.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -202,16 +210,6 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\LtiLibrary\LtiLibrary.AspNet\LtiLibrary.AspNet.csproj">
-      <Project>{e4935e79-a08f-4559-bc3b-b8840f30bf56}</Project>
-      <Name>LtiLibrary.AspNet</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\LtiLibrary\LtiLibrary.Core\LtiLibrary.Core.csproj">
-      <Project>{75d41eb6-f34b-4973-86eb-11abfee995b0}</Project>
-      <Name>LtiLibrary.Core</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
