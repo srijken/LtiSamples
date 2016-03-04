@@ -68,16 +68,16 @@
       <HintPath>..\packages\LtiLibrary.AspNet.1.6.0\lib\net45\LtiLibrary.AspNet.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="LtiLibrary.AspNet.Identity.Owin, Version=1.0.6.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\LtiLibrary.AspNet.Identity.Owin.1.0.6\lib\net45\LtiLibrary.AspNet.Identity.Owin.dll</HintPath>
+    <Reference Include="LtiLibrary.AspNet.Identity.Owin, Version=1.0.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LtiLibrary.AspNet.Identity.Owin.1.0.7\lib\net45\LtiLibrary.AspNet.Identity.Owin.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="LtiLibrary.Core, Version=1.6.5905.34040, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\LtiLibrary.Core.1.6.0\lib\net45\LtiLibrary.Core.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="LtiLibrary.Owin.Security.Lti, Version=1.0.6.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\LtiLibrary.Owin.Security.Lti.1.0.6\lib\net45\LtiLibrary.Owin.Security.Lti.dll</HintPath>
+    <Reference Include="LtiLibrary.Owin.Security.Lti, Version=1.0.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LtiLibrary.Owin.Security.Lti.1.0.7\lib\net45\LtiLibrary.Owin.Security.Lti.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">

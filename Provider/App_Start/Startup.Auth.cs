@@ -17,6 +17,7 @@ using Provider.Models;
 using System;
 using System.Globalization;
 using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace Provider
 {
@@ -171,8 +172,11 @@ namespace Provider
                     },
 
                     // Generate a username using the LisPersonEmailPrimary from the LTI request
-                    OnGenerateUserName = async context =>
-                        await SecurityHandler.OnGenerateUserName(context)
+                    OnGenerateUserName = context =>
+                                         {
+                                             context.UserName = context.GenerateUserName();
+                                             return Task.FromResult<object>(null);
+                                         }
                 },
                 ChallengeResultUrl = new PathString("/Manage/ToolConsumerLogins"),
                 SignInAsAuthenticationType = DefaultAuthenticationTypes.ApplicationCookie
